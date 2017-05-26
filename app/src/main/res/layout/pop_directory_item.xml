@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_space92"
+    android:background="@drawable/picker_item_bg"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/margin_space12"
+    android:paddingRight="@dimen/margin_space12">
+
+    <ImageView
+        android:id="@+id/iv_dir_cover"
+        android:layout_width="@dimen/height_space76"
+        android:layout_height="@dimen/height_space76"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_space10"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="@dimen/height_space80"
+        android:layout_height="@dimen/height_space80"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_directory_folder"
+        android:layout_alignLeft="@+id/iv_dir_cover"
+        android:layout_alignTop="@+id/iv_dir_cover" />
+
+    <ImageView
+        android:id="@+id/iv_dir"
+        android:layout_width="@dimen/height_space24"
+        android:layout_height="@dimen/height_space24"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_dir"
+        android:layout_toRightOf="@+id/iv_dir_cover"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dir_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blackFont"
+            android:textSize="@dimen/text_size16"/>
+
+        <TextView
+            android:id="@+id/tv_dir_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grayFont"
+            android:textSize="@dimen/text_size14"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_space1x"
+        android:layout_alignLeft="@+id/iv_dir_cover"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_bg"
+        android:id="@+id/view" />
+</RelativeLayout>

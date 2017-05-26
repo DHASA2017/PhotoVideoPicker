@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="dark_white">#80ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <color name="checkbox_select">#09bb07</color>
+    <color name="checkbox_unselect">#ffffff</color>
+
+    <color name="whiteFont">#ffffff</color>
+    <color name="blackFont">#333333</color>
+    <color name="grayFont">#bfbfbf</color>
+    <color name="grayFont9">#999999</color>
+    <color name="gray_bg">#d9d9d9</color>
+
+    <color name="black">#000000</color>
+    <color name="toolbar_bg">#393a3f</color>
+    <color name="bar_divider_bg">#2e2e32</color>
+
+</resources>
